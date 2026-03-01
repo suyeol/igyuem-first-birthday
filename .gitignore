@@ -1,0 +1,17 @@
+# 원본 사진 (80MB+)
+picture/
+
+# Node.js (이미지 리사이즈용 임시)
+node_modules/
+package.json
+package-lock.json
+resize.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.claude/

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>조이겸 첫 번째 생일 초대장</title>
+
+  <!-- OG Tags -->
+  <meta property="og:title" content="조이겸 첫 번째 생일에 초대합니다">
+  <meta property="og:description" content="2026년 3월 21일 토요일 오후 6시, 별내 차림">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== 1. Hero Section ========== -->
+  <section id="hero" class="hero">
+    <!-- Floating particles -->
+    <span class="particle" data-speed="0.3" style="--x:8%;--y:15%;--size:18px;--delay:0s;--dur:6s">&#11088;</span>
+    <span class="particle" data-speed="0.5" style="--x:85%;--y:10%;--size:14px;--delay:1s;--dur:7s">&#10084;&#65039;</span>
+    <span class="particle" data-speed="0.2" style="--x:20%;--y:70%;--size:16px;--delay:2s;--dur:8s">&#127775;</span>
+    <span class="particle" data-speed="0.6" style="--x:75%;--y:65%;--size:12px;--delay:0.5s;--dur:5s">&#10084;&#65039;</span>
+    <span class="particle" data-speed="0.4" style="--x:50%;--y:5%;--size:20px;--delay:1.5s;--dur:9s">&#11088;</span>
+    <span class="particle" data-speed="0.35" style="--x:92%;--y:40%;--size:10px;--delay:3s;--dur:6.5s">&#127775;</span>
+    <span class="particle" data-speed="0.55" style="--x:5%;--y:45%;--size:15px;--delay:2.5s;--dur:7.5s">&#10084;&#65039;</span>
+    <span class="particle" data-speed="0.25" style="--x:35%;--y:85%;--size:13px;--delay:0.8s;--dur:8.5s">&#11088;</span>
+    <span class="particle" data-speed="0.45" style="--x:65%;--y:30%;--size:17px;--delay:1.2s;--dur:6s">&#127775;</span>
+    <span class="particle" data-speed="0.3" style="--x:15%;--y:90%;--size:11px;--delay:3.5s;--dur:7s">&#10084;&#65039;</span>
+    <span class="particle" data-speed="0.5" style="--x:45%;--y:50%;--size:19px;--delay:2s;--dur:5.5s">&#11088;</span>
+    <span class="particle" data-speed="0.4" style="--x:80%;--y:80%;--size:14px;--delay:1.8s;--dur:8s">&#127775;</span>
+
+    <div class="hero-image-wrapper">
+      <img src="images/hero.jpg" alt="조이겸" class="hero-image morph">
+    </div>
+    <h1 class="hero-title shimmer" data-text="조이겸">조이겸</h1>
+    <p class="hero-subtitle" data-text="첫 번째 생일에 초대합니다">첫 번째 생일에 초대합니다</p>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Wave divider -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+  </div>
+
+  <!-- ========== 2. 초대 인사말 ========== -->
+  <section id="greeting" class="section greeting">
+    <div class="container fade-in">
+      <p class="greeting-icon">&#127880;</p>
+      <h2 class="section-title">초대합니다</h2>
+      <div class="greeting-text">
+        <p class="line">
+          사랑스러운 우리 아이 <strong>이겸</strong>이가<br>
+          세상에 온 지 벌써 365일이 되었습니다.
+        </p>
+        <p class="line">
+          작고 여린 손으로 우리의 마음을 꽉 채워준 아이가<br>
+          이제 첫 걸음을 내딛으려 합니다.
+        </p>
+        <p class="line">
+          귀한 걸음 하시어<br>
+          이겸이의 첫 번째 생일을<br>
+          함께 축하해 주시면 감사하겠습니다.
+        </p>
+        <p class="line greeting-names">
+          <span>조수열</span> · <span>박민주</span>의 아들 <strong>이겸</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave divider -->
+  <div class="wave-divider wave-flip">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFF3EB"/></svg>
+  </div>
+
+  <!-- ========== 3. 포토 갤러리 ========== -->
+  <section id="gallery" class="section gallery">
+    <div class="container fade-in">
+      <h2 class="section-title">갤러리</h2>
+      <div class="gallery-counter"><span id="gallery-current">1</span> / <span id="gallery-total">14</span></div>
+      <div class="gallery-nav-wrapper">
+        <button class="gallery-prev" type="button" aria-label="이전 사진">&#10094;</button>
+        <div class="gallery-viewport">
+          <div class="gallery-track">
+            <div class="gallery-slide"><img src="images/gallery/01.jpg" alt="이겸이 사진 1" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/02.jpg" alt="이겸이 사진 2" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/03.jpg" alt="이겸이 사진 3" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/04.jpg" alt="이겸이 사진 4" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/05.jpg" alt="이겸이 사진 5" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/06.jpg" alt="이겸이 사진 6" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/07.jpg" alt="이겸이 사진 7" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/08.jpg" alt="이겸이 사진 8" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/09.jpg" alt="이겸이 사진 9" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/10.jpg" alt="이겸이 사진 10" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/11.jpg" alt="이겸이 사진 11" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/12.jpg" alt="이겸이 사진 12" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/13.jpg" alt="이겸이 사진 13" loading="lazy"></div>
+            <div class="gallery-slide"><img src="images/gallery/14.jpg" alt="이겸이 사진 14" loading="lazy"></div>
+          </div>
+        </div>
+        <button class="gallery-next" type="button" aria-label="다음 사진">&#10095;</button>
+      </div>
+      <div class="gallery-dots"></div>
+    </div>
+  </section>
+
+  <!-- Wave divider -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+  </div>
+
+  <!-- ========== 4. 행사 안내 ========== -->
+  <section id="info" class="section info">
+    <div class="container fade-in">
+      <h2 class="section-title">행사 안내</h2>
+      <div class="info-card">
+        <div class="info-date">
+          <p class="info-label">날짜</p>
+          <p class="info-value">2026년 3월 21일 토요일</p>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-time">
+          <p class="info-label">시간</p>
+          <p class="info-value">오후 6시</p>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-place">
+          <p class="info-label">장소</p>
+          <p class="info-value">별내 차림</p>
+          <p class="info-address">경기 남양주시 두물로 19 메가박스건물 5층</p>
+        </div>
+      </div>
+      <div class="dday-counter">
+        <p class="dday-label">돌잔치까지</p>
+        <div class="dday-numbers">
+          <div class="dday-unit">
+            <span class="dday-num" id="dday-days">0</span>
+            <span class="dday-text">일</span>
+          </div>
+          <div class="dday-unit">
+            <span class="dday-num" id="dday-hours">0</span>
+            <span class="dday-text">시간</span>
+          </div>
+          <div class="dday-unit">
+            <span class="dday-num" id="dday-minutes">0</span>
+            <span class="dday-text">분</span>
+          </div>
+          <div class="dday-unit">
+            <span class="dday-num" id="dday-seconds">0</span>
+            <span class="dday-text">초</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=%EC%A1%B0%EC%9D%B4%EA%B2%B8+%EB%8F%8C%EC%9E%94%EC%B9%98&dates=20260321T090000Z/20260321T120000Z&location=%EB%B3%84%EB%82%B4+%EC%B0%A8%EB%A6%BC&details=%EC%A1%B0%EC%9D%B4%EA%B2%B8+%EC%B2%AB+%EB%B2%88%EC%A7%B8+%EC%83%9D%EC%9D%BC" target="_blank" rel="noopener" class="btn btn-calendar">
+        캘린더에 추가
+      </a>
+    </div>
+  </section>
+
+  <!-- Wave divider -->
+  <div class="wave-divider wave-flip">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFF9F5"/></svg>
+  </div>
+
+  <!-- ========== 5. 오시는 길 ========== -->
+  <section id="location" class="section location">
+    <div class="container fade-in">
+      <h2 class="section-title">오시는 길</h2>
+      <a href="https://map.naver.com/p/entry/place/33243861" target="_blank" rel="noopener" class="map-card">
+        <div class="map-card-icon">&#128205;</div>
+        <p class="map-card-name">별내 차림</p>
+        <p class="map-card-address">경기 남양주시 두물로 19 메가박스건물 5층</p>
+        <span class="map-card-btn">네이버 지도에서 보기 &rarr;</span>
+      </a>
+      <div class="nav-buttons">
+        <a href="https://map.naver.com/p/entry/place/33243861" target="_blank" rel="noopener" class="btn btn-nav btn-naver-nav">네이버지도</a>
+        <a href="https://kko.to/S3NuJqsvR_" target="_blank" rel="noopener" class="btn btn-nav btn-kakao-nav">카카오내비</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave divider -->
+  <div class="wave-divider">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,80 L0,80 Z" fill="#FFFFFF"/></svg>
+  </div>
+
+  <!-- ========== 6. 공유하기 ========== -->
+  <section id="share" class="section share">
+    <div class="container fade-in">
+      <h2 class="section-title">공유하기</h2>
+      <div class="share-buttons">
+        <button id="btn-kakao-share" class="btn btn-share btn-kakao" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.48 3 2 6.58 2 10.9c0 2.78 1.86 5.22 4.66 6.6l-.96 3.56c-.08.3.26.54.52.37l4.24-2.82c.5.06 1.01.09 1.54.09 5.52 0 10-3.58 10-7.9S17.52 3 12 3z"/></svg>
+          카카오톡 공유
+        </button>
+        <button id="btn-copy-link" class="btn btn-share btn-link" type="button">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          링크 복사
+        </button>
+      </div>
+      <div id="toast" class="toast">링크가 복사되었습니다!</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>조이겸의 첫 번째 생일을 축하합니다</p>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" type="button" aria-label="닫기">&times;</button>
+    <button class="lightbox-prev" type="button" aria-label="이전">&#10094;</button>
+    <button class="lightbox-next" type="button" aria-label="다음">&#10095;</button>
+    <img class="lightbox-img" src="" alt="">
+    <div class="lightbox-counter"><span id="lightbox-current">1</span> / <span id="lightbox-total">14</span></div>
+  </div>
+
+  <!-- Kakao SDK -->
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.4/kakao.min.js" integrity="sha384-DKYJZ8NLiK8MN4/C5P2ezmFnkrysYA0rESA/gMEbHPOCeg3BbglXJOkXFBUAC0k" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
